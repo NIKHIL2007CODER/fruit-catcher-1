@@ -89,8 +89,8 @@ class Game{
     }
 
     fill("red")
-    text("Player" + " : " + player1score , 100, 50);
-    text("Player" +" : "+ player2score , 100, 100);
+    text("Player 1" + " : " + player1score , 100, 50);
+    text("Player 2" +" : "+ player2score , 100, 100);
 
         // Give movements for the players using arrow / mouse keys
         if(keyIsDown(39) ){
